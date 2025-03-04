@@ -1,19 +1,18 @@
-// 📌 Importerer React StrictMode, som hjelper med å finne potensielle problemer i appen
+// 📌 Importerer StrictMode fra React
 import { StrictMode } from 'react';
 
-// 📌 Importerer `createRoot` fra React-dom for å håndtere React-komponenten som skal vises i HTML
+// 📌 Importerer createRoot fra React-dom/client for å rendere React-applikasjonen
 import { createRoot } from 'react-dom/client';
 
-// 📌 Importerer global CSS-fil (index.css) som inneholder styling for hele appen
-// import './index.css';
+// 📌 Importerer den globale CSS-filen for grunnleggende styling
+import './index.css';
 
-// 📌 Importerer hovedkomponenten `App`, som er roten til hele React-applikasjonen
-import App from './App.jsx';
+// 📌 Importerer hovedkomponenten App fra components-mappen
+import App from './components/App'; // 📌 Oppdatert sti!
 
-// 📌 Henter HTML-elementet med id "root" fra `index.html` og sier at React-appen skal rendres her
+// 📌 Finner HTML-elementet med id 'root' og monterer React-applikasjonen der
 createRoot(document.getElementById('root')).render(
-  <StrictMode> {/* 📌 Bruker StrictMode for å hjelpe med feilsøking og beste praksis */}
-    <App />  {/* 📌 Rendrer hovedkomponenten `App`, som inneholder hele menyen */}
+  <StrictMode> {/* 📌 StrictMode hjelper med å oppdage potensielle feil i koden */}
+    <App /> {/* 📌 Rendre hovedkomponenten App */}
   </StrictMode>,
 );
-

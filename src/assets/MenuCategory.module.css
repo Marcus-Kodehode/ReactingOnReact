@@ -1,0 +1,16 @@
+/* 📌 Styling for meny-kategorier */
+.menuCategory {
+    margin-bottom: 40px; /* Gir luft mellom hver kategori for bedre lesbarhet */
+}
+  
+/* 📌 Styling for kategorioverskriftene (Forretter, Hovedretter, Desserter) */
+.menuCategory h2 {
+    font-size: 2rem; /* Setter skriftstørrelsen for overskriftene */
+    color: #2C3E50; /* Dyp blågrå farge for en elegant og lettlest tekst */
+    
+    border-bottom: 2px solid #B0A084; /* Legger til en dempet gull-brun linje under overskriften */
+    display: inline-block; /* Sørger for at linjen kun strekker seg så langt som teksten */
+    
+    padding-bottom: 5px; /* Gir litt ekstra luft mellom teksten og understreken */
+    margin-top: 30px; /* Gir plass over overskriften for bedre layout */
+}  

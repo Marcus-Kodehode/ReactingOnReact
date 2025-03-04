@@ -1,12 +1,20 @@
-# React + Vite
+## 📌 Om prosjektet
+Dette prosjektet er en enkel nettbasert meny for en **Moderne Nordisk Fine Dining-restaurant**.  
+Jeg har brukt **React + Vite** samt AI for og lage en oppgave for meg selv hvor jeg lagde en dynamisk og stilfull meny (I mine øyne ihvertfall da).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Teknologier brukt:
+- ⚛️ **React** - For komponentbasert utvikling
+- ⚡ **Vite** - For rask utvikling
+- 🎨 **CSS-moduler** - For komponent-spesifikk styling
+- 📂 **Bildehåndtering i public/images/** - For å vise retter
 
-Currently, two official plugins are available:
+## 🛠️ Steg-for-steg: Hva vi gjorde
+1️⃣ **Satt opp React + Vite**  
+2️⃣ **Lagde komponenter** (`App.jsx`, `Menykategori.jsx`, `MenyElement.jsx`)  
+3️⃣ **Brukte props og `.map()` for å generere menyen dynamisk**  
+4️⃣ **La til bilder av matrettene**  
+5️⃣ **Overgang til CSS-moduler for mer modulær styling**  
+6️⃣ **Tilpasset farger og layout for en eksklusiv look**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Bilder og ressurser
+Bildene av rettene er lagret i **public/images/** og vises i menyen.

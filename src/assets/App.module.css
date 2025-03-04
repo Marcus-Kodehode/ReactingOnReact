@@ -1,0 +1,18 @@
+/* 📌 Styling for hovedcontaineren */
+.app {
+  max-width: 900px; /* 📌 Begrenser bredden slik at innholdet ikke blir for bredt */
+  margin: auto; /* 📌 Sentrerer innholdet på siden */
+  padding: 30px; /* 📌 Gir god avstand rundt innholdet */
+  text-align: center; /* 📌 Sentrerer all tekst i containeren */
+  background-color: #F3F1ED; /* 📌 Varm beige for en rolig og innbydende atmosfære */
+  border-radius: 10px; /* 📌 Runde hjørner for et mykere utseende */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 📌 Subtil skyggeeffekt for dybde */
+}
+
+/* 📌 Styling for hovedtittelen */
+.title {
+  font-size: 3rem; /* 📌 Stor skriftstørrelse for å skape et blikkfang */
+  color: #8B5E3C; /* 📌 Varm brunfarge for en eksklusiv og sofistikert følelse */
+  margin-bottom: 20px; /* 📌 Gir luft under tittelen for bedre layout */
+  font-weight: 600; /* 📌 Gjør teksten halvfet for bedre synlighet */
+}  

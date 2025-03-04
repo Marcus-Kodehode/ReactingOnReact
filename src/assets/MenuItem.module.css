@@ -1,0 +1,48 @@
+/* 📌 Styling for individuelle retter */
+.menuItem {
+  display: flex; /* 📌 Plasserer bildet og teksten ved siden av hverandre */
+  align-items: center; /* 📌 Sentrerer innholdet vertikalt */
+  background: #FFFFFF; /* 📌 Ren hvit bakgrunn for å skape kontrast mot resten av designet */
+  padding: 20px; /* 📌 Gir god plassering rundt innholdet */
+  margin: 15px 0; /* 📌 Avstand mellom hver rett */
+  border-radius: 12px; /* 📌 Runde hjørner for et moderne og mykt utseende */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 📌 Skyggeeffekt for å gi dybde */
+  transition: transform 0.2s ease-in-out; /* 📌 Legger til en jevn animasjonseffekt */
+}
+
+/* 📌 Liten hover-effekt for interaktivitet */
+.menuItem:hover {
+  transform: scale(1.02); /* 📌 Øker størrelsen litt for å indikere interaktivitet */
+  background: #F3F1ED; /* 📌 Lys beige bakgrunn for en subtil effekt */
+}
+
+/* 📌 Styling for bildene av rettene */
+.menuImage {
+  width: 120px; /* 📌 Standard størrelse for bildene */
+  height: 120px; /* 📌 Holder bildene firkantede */
+  border-radius: 10px; /* 📌 Runde hjørner for et stilig utseende */
+  margin-right: 20px; /* 📌 Avstand mellom bildet og teksten */
+  object-fit: cover; /* 📌 Sørger for at bildet fyller hele rammen uten forvrengning */
+  border: 3px solid #B0A084; /* 📌 Gull-brun kant for å gi et eksklusivt preg */
+}
+
+/* 📌 Styling for tekstboksen ved siden av bildet */
+.menuInfo {
+  flex: 1; /* 📌 Sørger for at teksten tar opp tilgjengelig plass */
+}
+
+/* 📌 Styling for rettens navn */
+.menuInfo h2 {
+  margin-top: 0; /* 📌 Fjerner topp-margin for bedre justering */
+  font-size: 1.5rem; /* 📌 Gjør tittelen stor og tydelig */
+  color: #2C3E50; /* 📌 Dyp blågrå for eleganse og lett lesbarhet */
+}
+
+/* 📌 Styling for beskrivelse og pris */
+.menuInfo p {
+  margin: 5px 0; /* 📌 Gir litt avstand mellom linjene */
+  font-size: 1rem; /* 📌 Standard lesbar skriftstørrelse */
+  color: #4A4A4A; /* 📌 Myk mørkegrå for komfortabel lesing */
+}
+
+  

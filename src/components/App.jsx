@@ -1,15 +1,18 @@
-import React from 'react';
-import MenuCategory from './Menykategori';
-import styles from './App.module.css'; // 📌 Importerer CSS-modulen for denne komponenten
+// 📌 Importerer CSS-modulen spesifikt for App-komponenten
+import styles from "../assets/App.module.css";
+
+// 📌 Importerer MenuCategory-komponenten, som organiserer rettene i kategorier
+import MenuCategory from '../components/MenuCategory';
 
 function App() {
+  // 📌 Definerer en array av forretter med navn, beskrivelse, pris, allergener og bilde
   const starters = [
     {
-      name: 'Lobster Bisque',
-      description: 'A rich lobster soup with cream and fennel.',
-      price: 295,
-      allergens: ['Shellfish', 'Milk'],
-      image: '/images/hummer.webp',
+      name: 'Lobster Bisque', // 📌 Navn på retten
+      description: 'A rich lobster soup with cream and fennel.', // 📌 Beskrivelse av retten
+      price: 295, // 📌 Pris i NOK
+      allergens: ['Shellfish', 'Milk'], // 📌 Liste over allergener
+      image: '/images/hummer.webp', // 📌 Sti til bildet av retten
     },
     {
       name: 'Scallops with Cauliflower Purée',
@@ -41,6 +44,7 @@ function App() {
     },
   ];
 
+  // 📌 Definerer en array av hovedretter
   const mainCourses = [
     {
       name: 'Reindeer Filet with Lingonberry Sauce',
@@ -79,6 +83,7 @@ function App() {
     },
   ];
 
+  // 📌 Definerer en array av desserter
   const desserts = [
     {
       name: 'Cloudberry Cream with Caramelized Nuts',
@@ -119,7 +124,9 @@ function App() {
 
   return (
     <div className={styles.app}> {/* 📌 Bruker styling fra App.module.css */}
-      <h1 className={styles.title}>Modern Nordic Dining</h1>
+      <h1 className={styles.title}>Modern Nordic Dining</h1> {/* 📌 Hovedtittelen for nettsiden */}
+
+      {/* 📌 Sender data til MenuCategory-komponenten for å vise kategoriene på menyen */}
       <MenuCategory title="Starters" items={starters} />
       <MenuCategory title="Main Courses" items={mainCourses} />
       <MenuCategory title="Desserts" items={desserts} />
@@ -127,6 +134,5 @@ function App() {
   );
 }
 
-export default App;
-
+export default App; // 📌 Eksporterer App-komponenten slik at den kan brukes i main.jsx
 
