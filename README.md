@@ -14,7 +14,7 @@ Jeg har brukt **React + Vite** samt AI for og lage en oppgave for meg selv hvor 
 3️⃣ **Brukte props og `.map()` for å generere menyen dynamisk**  
 4️⃣ **La til bilder av matrettene**  
 5️⃣ **Overgang til CSS-moduler for mer modulær styling**  
-6️⃣ **Tilpasset farger og layout for en eksklusiv look**  
+6️⃣ **Tilpasset farger og layout for en bedre look**  
 
 ## 📷 Bilder og ressurser
 Bildene av rettene er lagret i **public/images/** og vises i menyen.
