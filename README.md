@@ -8,7 +8,7 @@ Jeg har brukt **React + Vite** samt AI for og lage en oppgave for meg selv hvor 
 - 🎨 **CSS-moduler** - For komponent-spesifikk styling
 - 📂 **Bildehåndtering i public/images/** - For å vise retter
 
-## 🛠️ Steg-for-steg: Hva vi gjorde
+## 🛠️ Steg-for-steg: Hva jeg gjorde
 1️⃣ **Satt opp React + Vite**  
 2️⃣ **Lagde komponenter** (`App.jsx`, `Menykategori.jsx`, `MenyElement.jsx`)  
 3️⃣  **La til bilder av matrettene**  
