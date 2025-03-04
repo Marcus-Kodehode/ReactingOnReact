@@ -1,0 +1,15 @@
+/* 📌 Styling for meny-kategorier */
+.menuCategory {
+    margin-bottom: 40px;
+  }
+  
+  /* 📌 Styling for kategorioverskriftene (Forretter, Hovedretter, Desserter) */
+  .menuCategory h2 {
+    font-size: 2rem;
+    color: #2C3E50; /* Dyp blågrå */
+    border-bottom: 2px solid #B0A084; /* Dempet gull-brun */
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
